@@ -47,7 +47,7 @@ export default class DropzoneS3Uploader extends React.Component {
     isImage: filename => filename && filename.match(/\.(jpeg|jpg|gif|png|svg)/i),
     notDropzoneProps: ['onFinish', 's3Url', 'filename', 'host', 'upload', 'isImage', 'notDropzoneProps'],
     style: {
-      width: 200,
+      width: 400,
       height: 200,
       border: 'dashed 2px #999',
       borderRadius: 5,
